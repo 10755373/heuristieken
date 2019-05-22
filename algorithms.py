@@ -54,7 +54,7 @@ def random_fill_hill_climber(solution):
 
     possibility = 1
     while(possibility == 1):
-        possibility = hp.switchitems_rocket_and_list_fill(rockets, cargolist, cargo_in_rockets, hp.fill_cargo_single_rocket_random)
+        possibility = hp.switchitems_rocket_and_list_fill(rockets, cargolist, cargo_in_rockets, hp.fill_cargo_random)
 
 
 #  algorithms for cost optimisation
